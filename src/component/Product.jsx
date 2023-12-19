@@ -447,10 +447,10 @@ const Product=()=>{
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src={prdct11}
+                                                        <a href="#" class="primary_img"><img src={prdct17}
                                                                 alt="product1"/></a>
                                                         <a href="#" class="secondary_img"><img
-                                                                src={prdct12} alt="product1"/></a>
+                                                                src={prdct18} alt="product1"/></a>
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box"
                                                                 data-placement="top"
@@ -511,10 +511,10 @@ const Product=()=>{
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src={prdct11}
+                                                        <a href="#" class="primary_img"><img src={prdct15}
                                                                 alt="product1"/></a>
                                                         <a href="#" class="secondary_img"><img
-                                                                src={prdct12} alt="product1"/></a>
+                                                                src={prdct16} alt="product1"/></a>
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box"
                                                                 data-placement="top"
@@ -575,10 +575,10 @@ const Product=()=>{
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src={prdct11}
+                                                        <a href="#" class="primary_img"><img src={prdct13}
                                                                 alt="product1"/></a>
                                                         <a href="#" class="secondary_img"><img
-                                                                src={prdct12} alt="product1"/></a>
+                                                                src={prdct14} alt="product1"/></a>
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box"
                                                                 data-placement="top"
