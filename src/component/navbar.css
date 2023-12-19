@@ -1143,7 +1143,6 @@ ul {
 
 /* **********banner section ************ */
 .banner_section {
-  background-image: url("../images/banner/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px solid #ebebeb;
