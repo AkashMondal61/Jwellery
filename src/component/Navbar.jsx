@@ -74,7 +74,7 @@ export const Navbar = () => {
                                     <img src={phn} alt=""/>
                                 </div>
                                 <div className="contact_box">
-                                    <p>Inquiry / Helpline : <a href="tel: 1234567894">1234567894</a></p>
+                                    <p>Inquiry / Helpline : <a href="tel: 1231231234">1231231234</a></p>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ export const Navbar = () => {
                                             </li>
                                             <li>
                                                 <a href="#">Category <FaAngleDown/></a>
-                                                <ul className="mega_menu">
+                                                {/* <ul className="mega_menu">
                                                     <li>
                                                         <a href="#">Women</a>
                                                         <ul>
@@ -220,7 +220,7 @@ export const Navbar = () => {
                                                         </ul>
                                                     </li>
 
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                             <li>
                                                 <a href="#">Uncut Diamonds <FaAngleDown/></a>

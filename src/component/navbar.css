@@ -1032,6 +1032,7 @@ ul {
   }
 }
 
+
 .slider_black .slider_content span {
   font-size: 24px;
   color: #cccccc;
@@ -1378,6 +1379,13 @@ ul {
   flex: 0 0 100%;
   max-width: 20%;
   padding: 0 6px;
+}
+@media only screen and (max-width: 600px)
+{
+.product_container .custom-col-5{
+  flex: 0 0 100%;
+   max-width: 100%;
+  }
 }
 .custom-row {
   display: flex;
@@ -2076,12 +2084,18 @@ ul {
 
 /* ****************banner section ************** */
 .banner_section_five {
+  display: flex;
   border-bottom: 0;
-  padding: 25px;
+  padding: 25px 25px;
+  align-items: center;
+  text-align: center;
 }
 .banner_section_five .row {
   margin-right: 0;
   margin-left: 0;
+  gap:20px;
+  align-items: center;
+  text-align: center;
 }
 
 .port-box {
