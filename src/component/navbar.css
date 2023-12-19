@@ -1376,7 +1376,7 @@ ul {
 
 .product_container .custom-col-5 {
   flex: 0 0 100%;
-  max-width: 100%;
+  max-width: 20%;
   padding: 0 6px;
 }
 .custom-row {
@@ -2225,6 +2225,7 @@ p {
 .simple_product_content {
   width: 70%;
   margin-left: 17px;
+  color: rgb(196, 194, 78);
 }
 
 .simple_product_content .tag_cate {
@@ -2246,7 +2247,7 @@ p {
 }
 
 .simple_product_content .product_price span {
-  color: #5a5a5a;
+  color: #776f6f;
   font-size: 14px;
   font-weight: 400;
 }
@@ -2508,4 +2509,8 @@ p {
 .arrow-right:hover {
   background: #a8741a;
   color: #fff;
+}
+.address{
+  color: white;
+  text-decoration: underline;
 }

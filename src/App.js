@@ -1,5 +1,7 @@
 
-import { Nabar } from './component/Navbar';
+import { Navbar } from './component/Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './component/navbar.css'
 import {
   BrowserRouter as Router,
@@ -7,18 +9,23 @@ import {
   Routes,
   BrowserRouter
 } from 'react-router-dom';
-import { Fragment } from 'react';
+import { Fragment,useEffect } from 'react';
 import { Footer } from './component/Footer';
 import { Slider } from './component/Slider';
 import { Banner } from './component/Banner';
+import Product from './component/Product';
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
  <Fragment>
   <div class="home_black_version">
-  <Nabar/>
+  <Navbar/>
   <BrowserRouter>
   </BrowserRouter>
   <Slider/>
+  <Product/>
   <Banner/>
   <Footer/>
   </div>

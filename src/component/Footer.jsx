@@ -11,9 +11,15 @@ export const Footer = () => {
                                 <div class="widgets_container contact_us">
                                     <h3>About Ashirwaad</h3>
                                     <div class="footer_contact">
-                                        <p>Address : Ashirwaad palace, Surat, Gujarat</p>
-                                        <p>Phone : <a href="tel:(+91)888888885555">(+91)888888885555</a></p>
-                                        <p>Email : ashirwaadjewlers@gmail.com</p>
+                                       <a href="https://maps.app.goo.gl/Hzf91uABv6isfkb79" className="address">Kolkta Baubajar Street</a>
+                                        <p>Phone : <a href="tel:(+91)888888885555">(+91)32454657687</a></p>
+                                        <p>Email : ashirwaadjewlersbaubajar@gmail.com</p>
+                                        <a href="https://maps.app.goo.gl/4cHvjNUsq7U2vn4A9" className="address">Kolkta Nagendrabajar Street</a>
+                                        <p>Phone : <a href="tel:(+91)888888885555">(+91)987656784499</a></p>
+                                        <p>Email : ashirwaadjewlersnagendra@gmail.com</p>
+                                        <a href="https://maps.app.goo.gl/oFws1miBo8zeHtV6A" className="address">Delhi</a>
+                                        <p>Phone : <a href="tel:(+91)888888885555">(+91)984566785555</a></p>
+                                        <p>Email : ashirwaadjewlersdelhi@gmail.com</p>
                                         <ul>
                                             <li><a href="#">< FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>

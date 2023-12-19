@@ -7,8 +7,8 @@ import ash from '../images/logo/logo-ash.png'
 import phn from "../images/icon/icon_phone.png"
 import prdct from "../images/nav-product/product.jpg"
 // 'images/logo/logo-ash.png'
-import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaAngleDown } from "react-icons/fa";
-export const Nabar = () => {
+import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaAngleDown ,FaOpencart,FaSearch,FaHeart } from "react-icons/fa";
+export const Navbar = () => {
 
     return (
         <>
@@ -88,19 +88,19 @@ export const Nabar = () => {
                         <div className="col-lg-5 col-md-7 col-6">
                             <div className="middel_right">
                                 <div className="search_btn">
-                                    <a href="#"><i className="ion-ios-search-strong"></i></a>
+                                    <a href="#"><FaSearch/></a>
                                     <div className="dropdown_search">
                                         <form action="#">
                                             <input type="text" placeholder="Search Product ...."/>
-                                            <button type="submit"><i className="ion-ios-search-strong"></i></button>
+                                            <button type="submit"><FaSearch/></button>
                                         </form>
                                     </div>
                                 </div>
                                 <div className="wishlist_btn">
-                                    <a href="#"><i className="ion-heart"></i></a>
+                                    <a href="#"><FaHeart/></a>
                                 </div>
                                 <div className="cart_link">
-                                    <a href="#"><i className="ion-android-cart"></i><span className="cart_text_quantity">Rs.
+                                    <a href="#"><FaOpencart/><span className="cart_text_quantity">Rs.
                                             67,598</span><i className="ion-chevron-down"></i></a>
                                     <span className="cart_quantity">2</span>
 
@@ -111,7 +111,7 @@ export const Nabar = () => {
                                                 <h3>cart</h3>
                                             </div>
                                             <div className="mini_cart_close">
-                                                <a href="javascript:void(0)"><i className="ion-android-close"></i></a>
+                                                <a href="javascript:void(0)"><FaOpencart /></a>
                                             </div>
                                         </div>
                                         <div className="cart_item">
@@ -124,7 +124,7 @@ export const Nabar = () => {
                                                 <span className="price_cart">Rs. 54,599</span>
                                             </div>
                                             <div className="cart_remove">
-                                                <a href="#"><i className="ion-android-close"></i></a>
+                                                <a href="#"><FaOpencart /></a>
                                             </div>
                                         </div>
                                         <div className="cart_item">
@@ -137,7 +137,7 @@ export const Nabar = () => {
                                                 <span className="price_cart">Rs. 12,999</span>
                                             </div>
                                             <div className="cart_remove">
-                                                <a href="#"><i className="ion-android-close"></i></a>
+                                                <a href="#"><FaOpencart /></a>
                                             </div>
                                         </div>
                                         <div className="cart_total">
@@ -188,7 +188,7 @@ export const Nabar = () => {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Category <i className="ion-chevron-down"></i></a>
+                                                <a href="#">Category <FaAngleDown/></a>
                                                 <ul className="mega_menu">
                                                     <li>
                                                         <a href="#">Women</a>
@@ -223,7 +223,7 @@ export const Nabar = () => {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Uncut Diamonds <i className="ion-chevron-down"></i></a>
+                                                <a href="#">Uncut Diamonds <FaAngleDown/></a>
                                                 <ul className="sub_menu pages">
                                                     <li><a href="#">Earrings</a></li>
                                                     <li><a href="#">Pendant</a></li>
@@ -234,7 +234,7 @@ export const Nabar = () => {
                                             </li>
                                             <li><a href="#">About Us</a></li>
                                             <li>
-                                                <a href="#">Special Collection <i className="ion-chevron-down"></i></a>
+                                                <a href="#">Special Collection <FaAngleDown/></a>
                                                 <ul className="sub_menu pages">
                                                     <li><a href="#">Gemstone</a></li>
                                                     <li><a href="#">Gold</a></li>
